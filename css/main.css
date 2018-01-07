@@ -1,0 +1,71 @@
+/*Menu et Logo */ 
+.menu{
+    float: right; 
+    padding-top: 175px;
+    padding-bottom: 14px;
+}
+.menu li{
+    display: inline-block;
+}
+.menu a{
+    padding: 15px; 
+    color: #000; 
+}
+.menu a:hover{
+    color: #a85b5b;
+}
+
+
+/*Slider test */
+.slider{
+    background-color: #a85b5b;
+    height: 500px;
+}
+/* News */
+
+.news{
+    padding: 15px; 
+}
+.info{
+    padding: 0 5px 60px 0px;
+}
+
+#myCarousel{ 
+    background-color: #c98585;
+}
+
+/* Donation */
+.donation{
+    background-color: #c98585;
+    color: #fff;
+}
+.bloc{
+    width: 600px; 
+    font-size: 20px;
+    font-style: normal;
+}
+img{
+    border: none;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
