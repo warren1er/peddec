@@ -1,14 +1,20 @@
+body{
+  padding-top: 22px;
+  padding-bottom: 20px;
+  margin: 0 auto;
+}
+
 /*Menu et Logo */
-.main{
+#main{
   position: fixed;
   right: 0;
   left: 0;
-  z-index: 10;
   border: 1px solid #000;
   width: 100%;
   background-color:  #a85b5b;
   opacity: 0.87;
 }
+
 .menu{
     float: right;
     padding-top: 40px;
@@ -20,12 +26,22 @@
 .menu a{
     padding: 15px;
     color: #000;
+    top: -30px;
 }
 .menu a:hover{
     color: #fff;
+    text-decoration: none;
 }
 
 
+/*Logo*/
+.logo{
+  z-index: 10;
+  position: relative;
+  top: -30px;
+  width: 45px;
+  height: 90px;
+}
 /*Slider test */
 .slider{
     background-color: #a85b5b;
@@ -49,6 +65,7 @@
 .donation{
     background-color: #c98585;
     color: #fff;
+    width: auto;
 }
 .bloc{
     width: 600px;
@@ -61,6 +78,7 @@ img{
 
 #map{
   height: 350px;
+  width: auto;
 
 }
 
